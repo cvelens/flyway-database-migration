@@ -1,2 +1,2 @@
 # database-migration
-Using Flyway for migration
+Using Flyway for migration with Docker
