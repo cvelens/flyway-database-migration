@@ -8,7 +8,7 @@ pipeline {
         VERSION_SCRIPT_PATH = '/usr/local/bin/get_next_version.sh'
         FLYWAY_URL = 'jdbc:postgresql://localhost:5432/cve'
         FLYWAY_USER = 'admin'
-        FLYWAY_PASSWORD = 'adminpassword'
+        FLYWAY_PASSWORD = 'admin'
         FLYWAY_SCHEMAS = 'cve'
     }
 
