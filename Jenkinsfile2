@@ -6,10 +6,6 @@ pipeline {
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub'
         DOCKERHUB_REPO = 'chlokesh1306/database-migration' 
         VERSION_SCRIPT_PATH = '/usr/local/bin/get_next_version.sh'
-        FLYWAY_URL = 'jdbc:postgresql://localhost:5432/cve'
-        FLYWAY_USER = 'admin'
-        FLYWAY_PASSWORD = 'admin'
-        FLYWAY_SCHEMAS = 'cve'
     }
 
     stages {
